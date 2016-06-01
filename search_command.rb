@@ -1,4 +1,6 @@
-class Seach_Command
+require_relitive 'command'
+
+class Seach_Command < Command
 
   def initialize
     @command_name = "search"

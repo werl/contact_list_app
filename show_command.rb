@@ -1,4 +1,6 @@
-class Show_Command
+require_relitive 'command'
+
+class Show_Command < Command
   
   def initialize
     @command_name = "show"

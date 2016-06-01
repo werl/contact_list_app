@@ -1,3 +1,5 @@
+require_relitive 'command'
+
 class New_Command < Command
   
   def initialize

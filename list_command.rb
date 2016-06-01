@@ -1,4 +1,6 @@
-class List_Command
+require_relitive 'command'
+
+class List_Command < Command
   
   def initialize
     @command_name = "list"
