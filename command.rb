@@ -12,4 +12,8 @@ class Command
   def execute (args)
     return "BOOM!!"
   end
+
+  def tags
+    return "WTF"
+  end
 end
