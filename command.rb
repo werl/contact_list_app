@@ -6,10 +6,10 @@ class Command
   end
 
   def get_help
-
+    return "Command not working. Talk to developer to fix/create command"
   end
 
   def execute (args)
-    
+    return "BOOM!!"
   end
 end
