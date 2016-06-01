@@ -4,10 +4,11 @@ require 'csv'
 # The ContactList class will work with Contact objects instead of interacting with the CSV file directly
 class Contact
 
-  attr_reader :file_name = "contacts.csv"
+  attr_reader :file_name
 
   attr_accessor :name, :email
   
+
   # Creates a new contact object
   # @param name [String] The contact's name
   # @param email [String] The contact's email address
