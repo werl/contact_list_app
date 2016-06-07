@@ -1,4 +1,10 @@
 class Command
+  
+  def initialize
+    super("Plasma canon", 200, 55)
+  end
+
+end
   attr_reader :command_name
 
   def initialize (name)
@@ -14,6 +20,6 @@ class Command
   end
 
   def tags
-    return "WTF"
+    return "NOT IMPLEMENTED YET!"
   end
 end
